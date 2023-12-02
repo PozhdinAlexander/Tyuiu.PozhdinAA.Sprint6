@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFB21EE0-CBBC-4600-8D16-C72EC96E5A73}</ProjectGuid>
+    <ProjectGuid>{7AD112E9-F78E-4CA8-8E9C-9FFA34AEE7AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.PozhdinAA.Sprint6.Task0.V1.Test</RootNamespace>
-    <AssemblyName>Tyuiu.PozhdinAA.Sprint6.Task0.V1.Test</AssemblyName>
+    <RootNamespace>Tyuiu.PozhdinAA.Sprint6.Task2.V25.Test</RootNamespace>
+    <AssemblyName>Tyuiu.PozhdinAA.Sprint6.Task2.V25.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.PozhdinAA.Sprint6.Task0.V1.Lib\Tyuiu.PozhdinAA.Sprint6.Task0.V1.Lib.csproj">
-      <Project>{505a414f-4185-493c-a3fa-37bc23747bd8}</Project>
-      <Name>Tyuiu.PozhdinAA.Sprint6.Task0.V1.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.PozhdinAA.Sprint6.Task2.V25.Lib\Tyuiu.PozhdinAA.Sprint6.Task2.V25.Lib.csproj">
+      <Project>{4393a75c-5520-4597-b42e-d981b7aa0e5a}</Project>
+      <Name>Tyuiu.GornovTA.Sprint6.Task2.V25.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
