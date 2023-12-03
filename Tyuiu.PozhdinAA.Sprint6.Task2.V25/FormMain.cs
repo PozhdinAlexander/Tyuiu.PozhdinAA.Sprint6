@@ -63,5 +63,10 @@ namespace Tyuiu.PozhdinAA.Sprint6.Task2.V25
         {
             MessageBox.Show("Таск 1 выполнил студент группы АСОиУб-23-1 Пождин Александр Андреевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

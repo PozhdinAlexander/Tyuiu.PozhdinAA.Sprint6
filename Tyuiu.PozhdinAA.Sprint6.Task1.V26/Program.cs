@@ -16,7 +16,7 @@ namespace Tyuiu.PozhdinAA.Sprint6.Task1.V26
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new pictureBox_PAA());
+            Application.Run(new FormMain());
         }
     }
 }

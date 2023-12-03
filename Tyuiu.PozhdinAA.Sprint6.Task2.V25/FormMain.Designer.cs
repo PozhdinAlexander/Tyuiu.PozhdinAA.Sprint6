@@ -217,6 +217,7 @@ namespace Tyuiu.PozhdinAA.Sprint6.Task2.V25
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 2 | Вариант 25 | Пождин А.А";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxText_PAA.ResumeLayout(false);
             this.groupBoxText_PAA.PerformLayout();
             this.groupBoxIn_PAA.ResumeLayout(false);
