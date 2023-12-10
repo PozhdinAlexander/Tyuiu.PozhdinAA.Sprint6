@@ -13,7 +13,7 @@ namespace Tyuiu.PozhdinAA.Sprint6.Task7.V27.Test
         {
             DataService service = new DataService();
 
-            string testPath = @"C:\DataSprint5\1122.csv";
+            string testPath = @"C:\Users\xMeT1oRx\source\repos\Tyuiu.PozhdinAA.Sprint6\Tyuiu.PozhdinAA.Sprint6.Task7.V27\bin\Debug\OutputFileTask7";
             int[,] testMatrix = new int[6, 6];
             for (int i = 0; i < testMatrix.GetLength(0); i++)
             {
